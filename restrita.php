@@ -5,11 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>academia</title>
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link  rel="stylesheet" href="assets/css/css3.css">
 </head>
-<body>
     <?php
         include_once("assets/componentes/cabecalho.html");
+
+      
+    ?>
+<body>
+    <?php
+        include_once("assets/componentes/restrita.html");
+
+      
     ?>
 
     
