@@ -109,6 +109,7 @@ h5
 
 .preto
 {
+    margin-left: 320px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -124,7 +125,7 @@ h5
 {
     font-size: 20px;
     letter-spacing: 2px;
-    margin: 6px 20px;
+    margin: 30px 20px;
     font-weight: 900;
 }
 
