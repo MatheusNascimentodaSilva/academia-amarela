@@ -27,7 +27,7 @@ a
 {
     text-decoration: none;
     color: #000;
-    font-size: 20px;
+    font-size: 38px;
     font-weight: bolder;
     margin-left: 18px;
 }
@@ -53,6 +53,7 @@ h2
 
 .a
 {
+    
     width: 400px;
     display: flex;
     justify-content: center;
@@ -65,7 +66,7 @@ h2
 {
     width: 100px;
     height: 100px;
-    padding-left: 1800px;
+    padding-left: 900px;
    
 
 }
