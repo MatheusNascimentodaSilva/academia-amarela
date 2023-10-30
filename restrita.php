@@ -7,14 +7,21 @@
     <title>academia</title>
     <link  rel="stylesheet" href="assets/css/css3.css">
 </head>
-    <?php
+  
+<body>
+
+<?php
         include_once("assets/componentes/cabecalho.html");
 
       
     ?>
-<body>
     <?php
         include_once("assets/componentes/restrita.html");
+
+      
+    ?>
+    <?php
+        include_once("assets/componentes/rodape.html");
 
       
     ?>

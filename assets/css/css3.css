@@ -131,3 +131,22 @@ h3
     padding: 30px;
     margin-left: 250px;
 }
+
+footer
+{
+    background-color: #FAD824;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  color: #000;
+
+}
+
+footer p 
+{
+    color: #000;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
