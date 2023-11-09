@@ -8,9 +8,10 @@ $sobrenome = $_REQUEST['sobrenome'];
 $email = $_REQUEST['email'];
 $telefone = $_REQUEST['telefone'];
 $endereco = $_REQUEST['endereco'];
+$senha = $_REQUEST['senha'];
 
 
-$sql = "INSERT INTO pessoa (nome, sobrenome, email, telefone, endereco) VALUES ('$nome','$sobrenome', '$email', '$telefone', '$endereco')";
+$sql = "INSERT INTO pessoa (nome, sobrenome, email, telefone, endereco, senha) VALUES ('$nome','$sobrenome', '$email', '$telefone', '$endereco', '$senha')";
 
 if ($conn->query($sql) == TRUE)
 {

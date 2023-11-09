@@ -4,16 +4,16 @@
 
     $sql = "SELECT * FROM pessoa";
     
-    $result = $conn->query($sql); //executando a busca no banco de dados e armazenando o retorno na variável result
+    $result = $conn->query($sql); 
 
-    if ($result-> num_rows > 0) //se o número de linhas de resultado for maior do que zero
+    if ($result-> num_rows > 0) 
     {
-        echo "<table>"; //imprimir a abertura da tabela
-        echo "<tr> <th>ID</th> <th>Nome</th> <th>E-mail</th> <th>Detalhes</th> </tr>"; //imprimir o cabeçalho da tabela
+        echo "<table>"; 
+        echo "<tr> <th>ID</th> <th>Nome</th> <th>E-mail</th> <th>Detalhes</th> </tr>"; 
         
-        while ($linha = $result->fetch_assoc()) //pegar a próxima linha de dados
+        while ($linha = $result->fetch_assoc()) 
         {
-            echo "<tr>"; //abrir a nova linha
+            echo "<tr>";
             echo "<td>" . $linha["idPessoa"] . "</td>";
             echo "<td>" . $linha["nome"] . "</td>";
             echo "<td>" . $linha["sobrenome"] . "</td>";
@@ -21,10 +21,10 @@
             echo "<td>" . $linha["telefone"] . "</td>";
             echo "<td>" . $linha["endereco"] . "</td>";
             echo "<td> <a href='select.php?telefone=" . $linha["telefone"] . "'>Detalhes</a> </td>";
-            echo "</tr>"; //fechar a linha
+            echo "</tr>";
         }    
 
-        echo "</table>"; //fechar a tabela
+        echo "</table>"; 
 
     }
     else
