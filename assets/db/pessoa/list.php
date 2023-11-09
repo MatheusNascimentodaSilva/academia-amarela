@@ -1,3 +1,5 @@
+<script src="../../js/ultil.js">
+
 <?php
 
     include_once("../conn.php");
@@ -21,6 +23,9 @@
             echo "<td>" . $linha["telefone"] . "</td>";
             echo "<td>" . $linha["endereco"] . "</td>";
             echo "<td> <a href='select.php?telefone=" . $linha["telefone"] . "'>Detalhes</a> </td>";
+            echo "<td> <a href='delete.php?id=" . $linha["idPessoa"] . "' onClick='return confimar()' >Excluir</a> </td>";
+
+
             echo "</tr>";
         }    
 
