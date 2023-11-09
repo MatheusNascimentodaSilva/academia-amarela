@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<?php
+    <?php
         include_once("assets/componentes/cabecalho.html");
     ?>
     
@@ -23,9 +23,9 @@
 
     <?php
 
-    if ( isset($_REQUEST("email"))
+    if ( isset($_REQUEST["email"]))
     
-    include_once("assets/bd/login.php");
+        include_once("assets/db/pessoa/login.php");
 
     ?>
 

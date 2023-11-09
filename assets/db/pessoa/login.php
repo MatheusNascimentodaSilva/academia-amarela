@@ -19,7 +19,7 @@
            
             session_start();
             $_SESSION["nome"] = $linha["nome"];
-            header('Location: areaUsuario.php');
+            header('Location: areaRestrita.php');
     
         }
         else

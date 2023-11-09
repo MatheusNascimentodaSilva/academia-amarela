@@ -21,7 +21,7 @@ background-color: #FAD824;
 }
 .aka
 {
-    padding-left: 900px;
+    padding-left: 1100px;
 }
 
 
@@ -60,6 +60,7 @@ form
     border-radius: 20px;
     height: 650px;
     width: 800px;
+    padding-bottom: 160px;
 }
 
 
@@ -78,6 +79,8 @@ label
     padding: 20px;
     width: 300px;
     margin-left: 20px;
+    border-radius: 20px;
+    font-size: 26px;
 }
 
 #inpu
@@ -132,4 +135,9 @@ h3
     font-size: 50px;
     padding: 20px;
     margin-left: 250px;
+}
+
+#senha
+{
+    color: #fff;
 }

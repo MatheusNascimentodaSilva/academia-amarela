@@ -1,10 +1,10 @@
 <?php
 
-    include_once("../conn.php");
+    include_once("assets/db/conn.php");
 
-    $telefone = $_GET["telefone"];
+    $email = $_GET["email"];
 
-    $sql = "SELECT * FROM pessoa WHERE telefone = '$telefone'";
+    $sql = "SELECT * FROM pessoa WHERE email = '$email'";
     
     $result = $conn->query($sql); 
 
