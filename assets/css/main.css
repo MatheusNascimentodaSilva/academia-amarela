@@ -4,7 +4,7 @@
 {
     margin: 0;
     padding: 0;
-    
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -27,7 +27,7 @@ a
 {
     text-decoration: none;
     color: #000;
-    font-size: 38px;
+    font-size: 34px;
     font-weight: bolder;
     margin-left: 18px;
 }
@@ -66,7 +66,7 @@ h2
 {
     width: 100px;
     height: 100px;
-    padding-left: 900px;
+    padding-left: 1200px;
    
 
 }
@@ -172,7 +172,7 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 28px;
     background-color: #FAD824 ;
     color: #fff;
     margin-left:20px ;

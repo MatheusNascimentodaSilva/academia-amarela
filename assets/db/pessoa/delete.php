@@ -1,7 +1,7 @@
 
 <?php
 
-include_once("assets/db/pessoa/conn.php");
+include_once("../conn.php");
 
 $id  = $_GET["id"] ;
 

@@ -17,6 +17,7 @@ if ($conn->query($sql) == TRUE)
 {
     echo "<p>Cadastro realizado.</p>";
 }
+
 else
 {
     echo "<p>Erro.</p>";
@@ -28,3 +29,5 @@ $conn->close();
 ?>
 
 <a href="../../../index.html">Voltar ao início</a>
+
+

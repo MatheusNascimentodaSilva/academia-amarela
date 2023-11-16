@@ -1,36 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/acesso.css">
 </head>
 <body>
 
-    <?php
+
+
+
+
+<?php
         include_once("assets/componentes/cabecalho.html");
     ?>
+
     
-    <form method= "POST">
+    <section class="todo">
 
-    <label> E-mail:</label>
-    <input type="email" name="email" id="">
-    <label >Senha</label>
-    <input type="password" name ="senha"> <br>
-    <input type="submit" value="Entrar">
-   
+        <div class="area">
 
-    <?php
+           
+        <h3>login</h3>
+            <form method= "POST">
+                
 
-    if ( isset($_REQUEST["email"]))
+                <label>E-mail:</label><br>
+                <input class="input" type="email" name="email" id="inpu" placeholder="Informe seu email de cadastro"><br>
+
+                <label> Senha</label> <br>
+               <input class="input" type="password"  name="senha"  id="inpu" placeholder="Digite sua senha">
+
+                <input class="entrar" type="submit" value="Buscar"><br>
+
+                <a href="cadastro.php" class="registro">Registre-se aqui</a>
+  
     
-        include_once("assets/db/pessoa/login.php");
-
-    ?>
+            </form>
 
 
-</form>
+
+
+        </div>
+
+    </section>
     
+        <?php
+
+if ( isset($_REQUEST["email"]))
+
+    include_once("assets/db/pessoa/login.php");
+
+?>
+
 </body>
+
+
+<?php
+        include_once("assets/componentes/rodape.html");
+    ?>
+ 
 </html>

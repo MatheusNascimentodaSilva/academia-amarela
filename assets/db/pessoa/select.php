@@ -1,25 +1,25 @@
 <?php
 
-    include_once("assets/db/conn.php");
+    include_once("../conn.php");
 
     $email = $_GET["email"];
 
     $sql = "SELECT * FROM pessoa WHERE email = '$email'";
     
-    $result = $conn->query($sql); 
+    $result = $conn->query($sql);
 
-    if ($result-> num_rows > 0) 
+    if ($result-> num_rows > 0)
     {
         
         
-        $linha = $result->fetch_assoc(); 
+        $linha = $result->fetch_assoc();
 
         echo "<p>Nome: " . $linha['nome'] . "</p> <p>E-mail: " . $linha['email'] . "</p>";
 
     }
     else
     {
-        echo "<p>Nenhum registro foi encontrado.</p>";
+        echo "<p>Nenhum registro foi encontrado.</p>";  
 
         
     }
