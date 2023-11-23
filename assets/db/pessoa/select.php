@@ -15,7 +15,7 @@
         $linha = $result->fetch_assoc();
 
         echo "<p>Nome: " . $linha['nome'] . "</p> <p>E-mail: " . $linha['email'] . "</p>";
-
+        
     }
     else
     {

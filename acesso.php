@@ -55,7 +55,7 @@ if ( isset($_REQUEST["email"]))
 
 ?>
 
-</body>
+
 
 
 <?php
@@ -63,3 +63,5 @@ if ( isset($_REQUEST["email"]))
     ?>
  
 </html>
+
+</body>

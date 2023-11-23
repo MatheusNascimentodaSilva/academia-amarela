@@ -21,4 +21,4 @@ $conn->close();
 
 ?>
 
-<a href="../../../index.html">Voltar ao início</a>
+<a class="btn" href="../../../index.php">Voltar ao início</a>
